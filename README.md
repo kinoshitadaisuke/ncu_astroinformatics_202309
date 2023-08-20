@@ -15,3 +15,10 @@ https://github.com/kinoshitadaisuke/ncu_astroinformatics_202309
 To download all the sample Python scripts for this course, try following command.
 
 % git clone https://github.com/kinoshitadaisuke/ncu_astroinformatics_202309.git
+
+### Jupyter Notebooks on Google Colaboratory
+
+### Session 01: Basic Python programming
+
+https://colab.research.google.com/drive/1F_5BWgjL0OEPqaFJ98Payz_5icscg4f2?usp=sharing
+
