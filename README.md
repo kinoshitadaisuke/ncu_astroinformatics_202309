@@ -11,3 +11,7 @@ https://s3b.astro.ncu.edu.tw/ai_202309/
 ### GitHub repository
 
 https://github.com/kinoshitadaisuke/ncu_astroinformatics_202309
+
+To download all the sample Python scripts for this course, try following command.
+
+% git clone https://github.com/kinoshitadaisuke/ncu_astroinformatics_202309.git
