@@ -18,7 +18,10 @@ To download all the sample Python scripts for this course, try following command
 
 ### Jupyter Notebooks on Google Colaboratory
 
-### Session 01: Basic Python programming
+### Session 00: Executing a Python script
 
 https://colab.research.google.com/drive/1F_5BWgjL0OEPqaFJ98Payz_5icscg4f2?usp=sharing
 
+### Session 01: Basic Python programming
+
+https://colab.research.google.com/drive/1QSjbOMAO4nxcOZHQspMAGXdPmwecigA_?usp=sharing
