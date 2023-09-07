@@ -25,3 +25,10 @@ https://colab.research.google.com/drive/1F_5BWgjL0OEPqaFJ98Payz_5icscg4f2?usp=sh
 ### Session 01: Basic Python programming
 
 https://colab.research.google.com/drive/1QSjbOMAO4nxcOZHQspMAGXdPmwecigA_?usp=sharing
+
+## Sessions
+
+### Session 00 "Guidance" on 11/Sep/2023
+
+### Session 01 "Basic Python Programming" on 11/Sep/2023
+
