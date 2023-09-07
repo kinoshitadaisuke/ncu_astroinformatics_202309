@@ -28,7 +28,7 @@ https://colab.research.google.com/drive/1QSjbOMAO4nxcOZHQspMAGXdPmwecigA_?usp=sh
 
 ## Sessions
 
-### Session 00 "Guidance" on 11/Sep/2023
+### Session 00 "Guidance and executing a Python script" on 11/Sep/2023
 
-### Session 01 "Basic Python Programming" on 11/Sep/2023
+### Session 01 "Basic Python programming" on 11/Sep/2023
 
