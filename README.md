@@ -2,6 +2,14 @@
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
+## Sessions
+
+### Session 00 "Executing a Python script" on 11/Sep/2023
+
+### Session 01 "Basic Python programming" on 11/Sep/2023
+
+### Session 02 "Importing and using Python modules" on 18/Sep/2023
+
 ## Online resources
 
 ### Official couse web page
@@ -29,12 +37,4 @@ https://colab.research.google.com/drive/1QSjbOMAO4nxcOZHQspMAGXdPmwecigA_?usp=sh
 ### Session 02: Importing and using Python modules
 
 https://colab.research.google.com/drive/11PnkY9bAOHbrnvwY1re6cw9m8mYFjmTZ?usp=sharing
-
-## Sessions
-
-### Session 00 "Executing a Python script" on 11/Sep/2023
-
-### Session 01 "Basic Python programming" on 11/Sep/2023
-
-### Session 02 "Importing and using Python modules" on 18/Sep/2023
 
