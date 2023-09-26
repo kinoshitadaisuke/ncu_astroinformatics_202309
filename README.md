@@ -28,15 +28,19 @@ To download all the sample Python scripts for this course, try following command
 
 ### Jupyter Notebooks on Google Colaboratory
 
-### Session 00: Executing a Python script
+- Session 00: Executing a Python script
 
-https://colab.research.google.com/drive/1F_5BWgjL0OEPqaFJ98Payz_5icscg4f2?usp=sharing
+  - https://colab.research.google.com/drive/1F_5BWgjL0OEPqaFJ98Payz_5icscg4f2?usp=sharing
 
-### Session 01: Basic Python programming
+- Session 01: Basic Python programming
 
-https://colab.research.google.com/drive/1QSjbOMAO4nxcOZHQspMAGXdPmwecigA_?usp=sharing
+  - https://colab.research.google.com/drive/1QSjbOMAO4nxcOZHQspMAGXdPmwecigA_?usp=sharing
 
-### Session 02: Importing and using Python modules
+- Session 02: Importing and using Python modules
 
-https://colab.research.google.com/drive/11PnkY9bAOHbrnvwY1re6cw9m8mYFjmTZ?usp=sharing
+  - https://colab.research.google.com/drive/11PnkY9bAOHbrnvwY1re6cw9m8mYFjmTZ?usp=sharing
+
+- Session 03: Using Numpy for calculations
+
+  - https://colab.research.google.com/drive/1eVNBuT-wiwOZEj1qBxuWwKLETkjH98Js?usp=sharing
 
