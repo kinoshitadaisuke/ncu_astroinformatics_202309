@@ -10,6 +10,8 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 
 ### Session 02 "Importing and using Python modules" on 18/Sep/2023
 
+### Session 03 "Using Numpy for calculations" on 25/Sep/2023
+
 ## Online resources
 
 ### Official couse web page
