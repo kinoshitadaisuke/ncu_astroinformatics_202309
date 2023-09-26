@@ -4,13 +4,13 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 
 ## Sessions
 
-### Session 00 "Executing a Python script" on 11/Sep/2023
+- Session 00 "Executing a Python script" on 11/Sep/2023
 
-### Session 01 "Basic Python programming" on 11/Sep/2023
+- Session 01 "Basic Python programming" on 11/Sep/2023
 
-### Session 02 "Importing and using Python modules" on 18/Sep/2023
+- Session 02 "Importing and using Python modules" on 18/Sep/2023
 
-### Session 03 "Using Numpy for calculations" on 25/Sep/2023
+- Session 03 "Using Numpy for calculations" on 25/Sep/2023
 
 ## Online resources
 
