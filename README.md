@@ -12,6 +12,8 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 
 - Session 03 "Using Numpy for calculations" on 25/Sep/2023
 
+- Session 04 "Visualising data using Matplotlib" on 02/Oct/2023
+
 ## Online resources
 
 ### Official couse web page
