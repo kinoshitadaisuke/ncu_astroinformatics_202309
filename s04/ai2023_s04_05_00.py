@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/09/30 20:37:57 (CST) daisuke>
+# Time-stamp: <2023/09/30 20:59:02 (CST) daisuke>
 #
 
 # importing argparse module
@@ -70,7 +70,7 @@ canvas = matplotlib.backends.backend_agg.FigureCanvasAgg (fig)
 ax = fig.add_subplot (111)
 
 # making a plot using object-oriented interface
-ax.plot (data_x, data_y, linestyle='-', linewidth=3.0, color='orange', \
+ax.plot (data_x, data_y, linestyle='-', linewidth=3.0, color='cyan', \
          label='Sample data')
 
 # setting labels for x-axis and y-axis
