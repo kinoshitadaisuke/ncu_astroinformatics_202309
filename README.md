@@ -46,3 +46,9 @@ To download all the sample Python scripts for this course, try following command
 
   - https://colab.research.google.com/drive/1eVNBuT-wiwOZEj1qBxuWwKLETkjH98Js?usp=sharing
 
+### "Astroinformatics" of previous semesters
+
+- https://github.com/kinoshitadaisuke/ncu_astroinformatics_202209
+
+- https://github.com/kinoshitadaisuke/ncu_astroinformatics_202102
+
