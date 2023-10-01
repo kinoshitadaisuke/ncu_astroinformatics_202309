@@ -46,6 +46,10 @@ To download all the sample Python scripts for this course, try following command
 
   - https://colab.research.google.com/drive/1eVNBuT-wiwOZEj1qBxuWwKLETkjH98Js?usp=sharing
 
+- Session 04: Visualisation of data using Matplotlib
+
+  - https://colab.research.google.com/drive/11SAU6Yv31NNsz2KIM9QrGVjsa6TJQspZ?usp=sharing
+
 ### "Astroinformatics" of previous semesters
 
 - https://github.com/kinoshitadaisuke/ncu_astroinformatics_202209
