@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/09/30 22:23:18 (CST) daisuke>
+# Time-stamp: <2023/10/01 12:24:18 (CST) daisuke>
 #
 
 # importing argparse module
@@ -70,7 +70,7 @@ if (binary_mode):
     # opening file
     with open (file_output, 'wb') as fh_write:
         # writing data into file
-        fh_write.write (data_str)
+        fh_write.write (data_byte)
 else:
     # converting raw byte data into string
     data_str = data_byte.decode ('utf-8')
