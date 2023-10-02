@@ -14,6 +14,8 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 
 - Session 04 "Visualisation of data using Matplotlib" on 02/Oct/2023
 
+- Session 05 "Scientific calculations and analyses using SciPy" on 16/Oct/2023
+
 ## Online resources
 
 ### Official couse web page
