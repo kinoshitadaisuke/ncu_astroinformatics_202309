@@ -52,6 +52,10 @@ To download all the sample Python scripts for this course, try following command
 
   - https://colab.research.google.com/drive/11SAU6Yv31NNsz2KIM9QrGVjsa6TJQspZ?usp=sharing
 
+- Session 05: Scientific calculations and analyses using SciPy
+
+  - https://colab.research.google.com/drive/1Dzr5LZ854D1dneGHEfNcFE7gixWanmNc?usp=sharing
+
 ### "Astroinformatics" of previous semesters
 
 - https://github.com/kinoshitadaisuke/ncu_astroinformatics_202209
