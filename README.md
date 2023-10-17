@@ -16,6 +16,8 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 
 - Session 05 "Scientific calculations and analyses using SciPy" on 16/Oct/2023
 
+- Session 06 "Making and using relational database using Python" on 23/Oct/2023
+
 ## Online resources
 
 ### Official couse web page
@@ -55,6 +57,10 @@ To download all the sample Python scripts for this course, try following command
 - Session 05: Scientific calculations and analyses using SciPy
 
   - https://colab.research.google.com/drive/1Dzr5LZ854D1dneGHEfNcFE7gixWanmNc?usp=sharing
+
+- Session 06: Making and using relational database using Python
+
+  - https://colab.research.google.com/drive/1qheoxHxrOHc9voteO6ztbONzcY5WeAna?usp=sharing
 
 ### "Astroinformatics" of previous semesters
 
