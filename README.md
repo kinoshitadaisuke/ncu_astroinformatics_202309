@@ -1,5 +1,7 @@
 # Astroinformatics
 
+Time-stamp: <2023/10/24 12:56:27 (CST) daisuke>
+
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
 ## Sessions
@@ -17,6 +19,8 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 - Session 05 "Scientific calculations and analyses using SciPy" on 16/Oct/2023
 
 - Session 06 "Making and using relational database using Python" on 23/Oct/2023
+
+- Session 07 "Astronomical calculations using Astropy" on 30/Oct/2023
 
 ## Online resources
 
@@ -62,9 +66,20 @@ To download all the sample Python scripts for this course, try following command
 
   - https://colab.research.google.com/drive/1qheoxHxrOHc9voteO6ztbONzcY5WeAna?usp=sharing
 
+- Session 07: Astronomical calculations using Astropy
+
+  - https://colab.research.google.com/drive/1lkD_n4yScW5_0TPs_y0TTGlik-bjZaUA?usp=sharing
+
 ### "Astroinformatics" of previous semesters
 
 - https://github.com/kinoshitadaisuke/ncu_astroinformatics_202209
 
 - https://github.com/kinoshitadaisuke/ncu_astroinformatics_202102
 
+## Are you new to Python programming?
+
+If you are new to Python programming, read following document.
+
+- "The Python Tutorial"
+
+  - https://docs.python.org/3/tutorial/
