@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/10/31 18:08:47 (CST) daisuke>
+Time-stamp: <2023/10/31 18:09:27 (CST) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -21,6 +21,8 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 - Session 06 "Making and using relational database using Python" on 23/Oct/2023
 
 - Session 07 "Astronomical calculations using Astropy" on 30/Oct/2023
+
+- Session 08 "Blackbody radiation" on 06/Nov/2023
 
 ## Online resources
 
