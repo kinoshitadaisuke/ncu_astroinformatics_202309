@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/10/31 20:08:00 (CST) daisuke>
+# Time-stamp: <2023/10/31 20:50:34 (CST) daisuke>
 #
 
 # importing numpy module
@@ -80,7 +80,7 @@ ax.set_ylim (10**-30, 10**-3)
 
 # plotting data
 ax.plot (frequency, bb_5800, \
-         linestyle='-', linewidth=3, color='r', \
+         linestyle='-', linewidth=3, color='red', \
          label='Blackbody of T = 5800 K')
 ax.legend ()
 
