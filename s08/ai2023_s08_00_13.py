@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/10/31 20:11:43 (CST) daisuke>
+# Time-stamp: <2023/10/31 20:50:43 (CST) daisuke>
 #
 
 # importing numpy module
@@ -86,7 +86,7 @@ ax2.set_xlabel ('Wavelength [m]')
 
 # plotting data
 ax.plot (frequency, bb_5800, \
-         linestyle='-', linewidth=3, color='r', \
+         linestyle='-', linewidth=3, color='red', \
          label='Blackbody of T = 5800 K')
 ax.legend ()
 
