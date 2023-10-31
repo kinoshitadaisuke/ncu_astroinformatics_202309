@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/10/24 12:56:27 (CST) daisuke>
+Time-stamp: <2023/10/31 18:08:47 (CST) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -69,6 +69,10 @@ To download all the sample Python scripts for this course, try following command
 - Session 07: Astronomical calculations using Astropy
 
   - https://colab.research.google.com/drive/1lkD_n4yScW5_0TPs_y0TTGlik-bjZaUA?usp=sharing
+
+- Session 08: Blackbody radiation
+
+  - https://colab.research.google.com/drive/13bnixIaUpC_w14_iIz6SbV26MzezVJsX?usp=sharing
 
 ### "Astroinformatics" of previous semesters
 
