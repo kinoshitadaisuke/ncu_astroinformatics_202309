@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/11/02 10:42:19 (CST) daisuke>
+# Time-stamp: <2023/11/02 09:35:18 (CST) daisuke>
 #
 
 # importing numpy module
@@ -10,16 +10,6 @@ import numpy
 # importing astropy module
 import astropy.modeling.models
 import astropy.units
-
-# importing matplotlib module
-import matplotlib.figure
-import matplotlib.backends.backend_agg
-
-# output file name
-file_output = 'ai2023_s08_01_01.png'
-
-# resolution in DPI
-resolution_dpi = 225
 
 # units
 unit_K  = astropy.units.K
@@ -52,31 +42,10 @@ print (f'{frequency_Hz}')
 print (f'Blackbody radiation:')
 print (f'{bb_data}')
 
-# making objects "fig", "canvas", and "ax"
-fig    = matplotlib.figure.Figure ()
-canvas = matplotlib.backends.backend_agg.FigureCanvasAgg (fig)
-ax     = fig.add_subplot (111)
+# finding frequency corresponding to the peak of blackbody spectrum
+frequency_peak    = bb_model.nu_max
+frequency_peak_Hz = frequency_peak.to (unit_Hz)
 
-# labels
-ax.set_xlabel (f'Frequency [{frequency_Hz.unit}]')
-ax.set_ylabel (f'Specific Intensity [{bb_data.unit}]')
-
-# axes
-ax.set_xscale ('log')
-ax.set_yscale ('log')
-ax.set_xlim (10**12, 10**16)
-ax.set_ylim (10**-9, 10**-3)
-
-# plotting data
-ax.plot (frequency_Hz, bb_data, \
-         linestyle='-', linewidth=3, color='red', \
-         label=f'{T} blackbody')
-
-# grid
-ax.grid ()
-
-# legend
-ax.legend ()
-
-# saving the plot into a file
-fig.savefig (file_output, dpi=resolution_dpi)
+# printing frequency corresponding to the peak of blackbody spectrum
+print (f'peak of blackbody radiation of T={T}:')
+print (f'  frequency_peak = {frequency_peak_Hz:g}')

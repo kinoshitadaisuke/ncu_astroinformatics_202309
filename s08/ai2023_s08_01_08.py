@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/11/02 10:42:19 (CST) daisuke>
+# Time-stamp: <2023/11/02 11:12:48 (CST) daisuke>
 #
 
 # importing numpy module
@@ -16,14 +16,17 @@ import matplotlib.figure
 import matplotlib.backends.backend_agg
 
 # output file name
-file_output = 'ai2023_s08_01_01.png'
+file_output = 'ai2023_s08_01_08.png'
 
 # resolution in DPI
 resolution_dpi = 225
 
 # units
-unit_K  = astropy.units.K
-unit_Hz = astropy.units.Hz
+unit_K          = astropy.units.K
+unit_Hz         = astropy.units.Hz
+unit_MJy        = astropy.units.MJy
+unit_sr         = astropy.units.sr
+unit_MJy_per_sr = unit_MJy / unit_sr
 
 # temperature of blackbody
 T = 8000.0 * unit_K
@@ -41,7 +44,8 @@ frequency_Hz = numpy.logspace (frequency_min, frequency_max, \
                                num=7001, dtype=numpy.longdouble) * unit_Hz
 
 # a function to calculate blackbody radiation for T=8000 K
-bb_model = astropy.modeling.models.BlackBody (temperature=T)
+bb_model = astropy.modeling.models.BlackBody (temperature=T, \
+                                              scale=1.0 * unit_MJy_per_sr)
 
 # calculation of blackbody radiation
 bb_data = bb_model (frequency_Hz)
@@ -65,7 +69,7 @@ ax.set_ylabel (f'Specific Intensity [{bb_data.unit}]')
 ax.set_xscale ('log')
 ax.set_yscale ('log')
 ax.set_xlim (10**12, 10**16)
-ax.set_ylim (10**-9, 10**-3)
+ax.set_ylim (10**8, 10**14)
 
 # plotting data
 ax.plot (frequency_Hz, bb_data, \

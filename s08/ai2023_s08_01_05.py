@@ -1,13 +1,14 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/11/02 10:42:19 (CST) daisuke>
+# Time-stamp: <2023/11/02 10:44:14 (CST) daisuke>
 #
 
 # importing numpy module
 import numpy
 
 # importing astropy module
+import astropy.constants
 import astropy.modeling.models
 import astropy.units
 
@@ -16,7 +17,7 @@ import matplotlib.figure
 import matplotlib.backends.backend_agg
 
 # output file name
-file_output = 'ai2023_s08_01_01.png'
+file_output = 'ai2023_s08_01_05.png'
 
 # resolution in DPI
 resolution_dpi = 225
@@ -52,6 +53,14 @@ print (f'{frequency_Hz}')
 print (f'Blackbody radiation:')
 print (f'{bb_data}')
 
+# finding frequency corresponding to the peak of blackbody spectrum
+frequency_peak    = bb_model.nu_max
+frequency_peak_Hz = frequency_peak.to (unit_Hz)
+
+# printing frequency corresponding to the peak of blackbody spectrum
+print (f'peak of blackbody radiation of T={T}:')
+print (f'  frequency_peak = {frequency_peak_Hz:g}')
+
 # making objects "fig", "canvas", and "ax"
 fig    = matplotlib.figure.Figure ()
 canvas = matplotlib.backends.backend_agg.FigureCanvasAgg (fig)
@@ -67,10 +76,25 @@ ax.set_yscale ('log')
 ax.set_xlim (10**12, 10**16)
 ax.set_ylim (10**-9, 10**-3)
 
+# make secondary X-axis
+c   = astropy.constants.c
+c_v = c.value
+ax2 = ax.secondary_xaxis (location='top', \
+                          functions=(lambda x: c_v/x * 10**6, \
+                                     lambda x: c_v/x * 10**-6) )
+ax2.set_xlabel ('Wavelength [$\mu$m]')
+
 # plotting data
 ax.plot (frequency_Hz, bb_data, \
          linestyle='-', linewidth=3, color='red', \
+         zorder=0.2, \
          label=f'{T} blackbody')
+
+# drawing a vertical line showing the peak of the spectrum
+ax.axvline (x=frequency_peak_Hz.value, ymin=0, ymax=1, \
+            linestyle='--', linewidth=3, color='blue', \
+            zorder=0.1, \
+            label='peak frequency')
 
 # grid
 ax.grid ()

@@ -1,13 +1,14 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/11/02 10:42:19 (CST) daisuke>
+# Time-stamp: <2023/11/02 10:43:25 (CST) daisuke>
 #
 
 # importing numpy module
 import numpy
 
 # importing astropy module
+import astropy.constants
 import astropy.modeling.models
 import astropy.units
 
@@ -16,7 +17,7 @@ import matplotlib.figure
 import matplotlib.backends.backend_agg
 
 # output file name
-file_output = 'ai2023_s08_01_01.png'
+file_output = 'ai2023_s08_01_03.png'
 
 # resolution in DPI
 resolution_dpi = 225
@@ -66,6 +67,14 @@ ax.set_xscale ('log')
 ax.set_yscale ('log')
 ax.set_xlim (10**12, 10**16)
 ax.set_ylim (10**-9, 10**-3)
+
+# make secondary X-axis
+c   = astropy.constants.c
+c_v = c.value
+ax2 = ax.secondary_xaxis (location='top', \
+                          functions=(lambda x: c_v/x * 10**6, \
+                                     lambda x: c_v/x * 10**-6) )
+ax2.set_xlabel ('Wavelength [$\mu$m]')
 
 # plotting data
 ax.plot (frequency_Hz, bb_data, \
