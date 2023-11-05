@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/10/31 18:09:27 (CST) daisuke>
+Time-stamp: <2023/11/06 06:53:31 (CST) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -78,14 +78,14 @@ To download all the sample Python scripts for this course, try following command
 
 ### "Astroinformatics" of previous semesters
 
-- https://github.com/kinoshitadaisuke/ncu_astroinformatics_202209
-
-- https://github.com/kinoshitadaisuke/ncu_astroinformatics_202102
+- from Sep/2022 to Jan/2023
+  - https://github.com/kinoshitadaisuke/ncu_astroinformatics_202209
+- from Feb/2021 to Jun/2021
+  - https://github.com/kinoshitadaisuke/ncu_astroinformatics_202102
 
 ## Are you new to Python programming?
 
 If you are new to Python programming, read following document.
 
 - "The Python Tutorial"
-
   - https://docs.python.org/3/tutorial/
