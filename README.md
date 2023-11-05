@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/11/06 07:44:28 (CST) daisuke>
+Time-stamp: <2023/11/06 07:46:49 (CST) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -34,28 +34,20 @@ To download all the sample Python scripts and Jupyter Notebook files for this co
 
 - Session 00: Executing a Python script
   - https://colab.research.google.com/drive/1F_5BWgjL0OEPqaFJ98Payz_5icscg4f2?usp=sharing
-
 - Session 01: Basic Python programming
   - https://colab.research.google.com/drive/1QSjbOMAO4nxcOZHQspMAGXdPmwecigA_?usp=sharing
-
 - Session 02: Importing and using Python modules
   - https://colab.research.google.com/drive/11PnkY9bAOHbrnvwY1re6cw9m8mYFjmTZ?usp=sharing
-
 - Session 03: Using Numpy for calculations
   - https://colab.research.google.com/drive/1eVNBuT-wiwOZEj1qBxuWwKLETkjH98Js?usp=sharing
-
 - Session 04: Visualisation of data using Matplotlib
   - https://colab.research.google.com/drive/11SAU6Yv31NNsz2KIM9QrGVjsa6TJQspZ?usp=sharing
-
 - Session 05: Scientific calculations and analyses using SciPy
   - https://colab.research.google.com/drive/1Dzr5LZ854D1dneGHEfNcFE7gixWanmNc?usp=sharing
-
 - Session 06: Making and using relational database using Python
   - https://colab.research.google.com/drive/1qheoxHxrOHc9voteO6ztbONzcY5WeAna?usp=sharing
-
 - Session 07: Astronomical calculations using Astropy
   - https://colab.research.google.com/drive/1lkD_n4yScW5_0TPs_y0TTGlik-bjZaUA?usp=sharing
-
 - Session 08: Blackbody radiation
   - https://colab.research.google.com/drive/13bnixIaUpC_w14_iIz6SbV26MzezVJsX?usp=sharing
 
