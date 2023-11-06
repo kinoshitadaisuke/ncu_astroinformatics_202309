@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/11/07 07:31:55 (CST) daisuke>
+Time-stamp: <2023/11/07 07:36:52 (CST) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -51,6 +51,8 @@ To download all the sample Python scripts and Jupyter Notebook files for this co
   - https://colab.research.google.com/drive/1lkD_n4yScW5_0TPs_y0TTGlik-bjZaUA?usp=sharing
 - Session 08: Blackbody radiation
   - https://colab.research.google.com/drive/13bnixIaUpC_w14_iIz6SbV26MzezVJsX?usp=sharing
+- Session 09: Distribution of asteroids, stars, and galaxies
+  - https://colab.research.google.com/drive/1bYXjopouqOGX3LAl2iwM5_SYGHWrIkp3?usp=sharing
 
 ### "Astroinformatics" of previous semesters
 
