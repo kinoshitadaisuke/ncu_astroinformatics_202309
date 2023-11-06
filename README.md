@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/11/07 07:37:53 (CST) daisuke>
+Time-stamp: <2023/11/07 07:39:43 (CST) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -63,7 +63,9 @@ To download all the sample Python scripts and Jupyter Notebook files for this co
 
 ## Are you new to Python programming?
 
-If you are new to Python programming, read following document.
+If you are new to Python programming, read following document to learn about basic Python programming.
 
 - "The Python Tutorial"
   - https://docs.python.org/3/tutorial/
+
+If you have any difficulty for reading "The Python Tutorial" alone, come and talk to me. We may be able to arrange a group meeting to read "The Python Tutorial" together.
