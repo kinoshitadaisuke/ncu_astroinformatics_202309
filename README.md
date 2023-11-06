@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/11/07 07:39:43 (CST) daisuke>
+Time-stamp: <2023/11/07 07:47:30 (Taiwan Standard Time) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
