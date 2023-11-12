@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/11/10 16:08:27 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/11/12 12:57:09 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing gzip module
@@ -106,7 +106,7 @@ ax.set_ylabel ('Declination')
 
 # plotting data
 ax.plot (data_ra_rad, data_dec_rad, \
-         marker='.', linestyle='None', markersize=1, \
+         linestyle='None', marker='.', markersize=1, \
          color='blue', fillstyle='full', alpha=0.1)
 
 # saving file
