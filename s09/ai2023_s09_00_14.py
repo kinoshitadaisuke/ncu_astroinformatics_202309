@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/11/09 13:50:22 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/11/09 14:05:42 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing numpy module
@@ -32,7 +32,7 @@ u_deg = astropy.units.degree
 date = astropy.time.Time ('2024-01-01 00:00:00')
 
 # number of asteroids to get position
-n_asteroids = 2000
+n_asteroids = 1500
 
 # making empty numpy arrays for storing data
 data_ra_deg  = numpy.array ([])
