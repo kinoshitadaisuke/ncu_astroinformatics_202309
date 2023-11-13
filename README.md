@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/11/07 07:49:02 (Taiwan Standard Time UT+8) daisuke>
+Time-stamp: <2023/11/13 20:28:11 (Taiwan_Standard_Time_UT+8) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -16,6 +16,7 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 - Session 07 "Astronomical calculations using Astropy" on 30/Oct/2023
 - Session 08 "Blackbody radiation" on 06/Nov/2023
 - Session 09 "Distribution of asteroids, stars, and galaxies" on 13/Nov/2023
+- Session 10 "Hubble diagram and expansion of the Universe" on 20/Nov/2023
 
 ## Online resources
 
@@ -53,6 +54,8 @@ To download all the sample Python scripts and Jupyter Notebook files for this co
   - https://colab.research.google.com/drive/13bnixIaUpC_w14_iIz6SbV26MzezVJsX?usp=sharing
 - Session 09: "Distribution of asteroids, stars, and galaxies"
   - https://colab.research.google.com/drive/1bYXjopouqOGX3LAl2iwM5_SYGHWrIkp3?usp=sharing
+- Session 10: "Hubble diagram and expansion of the Universe"
+  - https://colab.research.google.com/drive/1IEdQ8eWoi5cNR3cAR0pFiwQCsiuyGaEy?usp=sharing
 
 ### "Astroinformatics" of previous semesters
 
@@ -69,3 +72,5 @@ If you are new to Python programming, read following document to learn about bas
   - https://docs.python.org/3/tutorial/
 
 If you have any difficulty for reading "The Python Tutorial" alone, come and talk to me. We may be able to arrange a group meeting to read "The Python Tutorial" together.
+
+Do you need a crash course for basic Python programming? If so, come and talk t o me.
