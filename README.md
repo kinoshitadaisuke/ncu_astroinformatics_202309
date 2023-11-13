@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/11/13 20:28:11 (Taiwan_Standard_Time_UT+8) daisuke>
+Time-stamp: <2023/11/13 22:41:29 (Taiwan_Standard_Time_UT+8) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -70,6 +70,10 @@ If you are new to Python programming, read following document to learn about bas
 
 - "The Python Tutorial"
   - https://docs.python.org/3/tutorial/
+
+If you prefer to read the traditional Chinese version of "The Python Tutorial", try following.
+
+- https://docs.python.org/zh-tw/3/tutorial/
 
 If you have any difficulty for reading "The Python Tutorial" alone, come and talk to me. We may be able to arrange a group meeting to read "The Python Tutorial" together.
 
