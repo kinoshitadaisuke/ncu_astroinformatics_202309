@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/11/20 18:29:55 (Taiwan_Standard_Time_UT+8) daisuke>
+Time-stamp: <2023/11/20 22:41:40 (Taiwan_Standard_Time_UT+8) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -17,6 +17,7 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 - Session 08 "Blackbody radiation" on 06/Nov/2023
 - Session 09 "Distribution of asteroids, stars, and galaxies" on 13/Nov/2023
 - Session 10 "Hubble diagram and expansion of the Universe" on 20/Nov/2023
+- Session 11 "Constructing a HR diagram of a star cluster using Gaia DR3"
 
 ## Online resources
 
