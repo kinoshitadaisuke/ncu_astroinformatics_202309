@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/11/20 22:47:41 (Taiwan_Standard_Time_UT+8) daisuke>
+Time-stamp: <2023/11/20 22:54:59 (Taiwan_Standard_Time_UT+8) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -24,6 +24,8 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 ### Official couse web page
 
 - https://s3b.astro.ncu.edu.tw/ai_202309/
+
+To download lecture notes for this course, visit above web page. A set of PDF files are available for your download.
 
 ### GitHub repository
 
