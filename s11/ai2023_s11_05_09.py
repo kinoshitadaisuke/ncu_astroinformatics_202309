@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/11/23 13:06:09 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/11/24 16:53:01 (Taiwan_Standard_Time_UT+8) daisuke>
 #    
 
 # importing argparse module
@@ -90,6 +90,7 @@ bin_range = (x_min, x_max)
 ax.set_xlabel ('Distance [pc]')
 ax.set_ylabel ('Number of Stars')
 ax.set_xlim (bin_range)
+ax.grid ()
 
 # making a histogram
 ax.hist (data_distance, bins=n_bins, range=bin_range, \
