@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/11/20 22:54:59 (Taiwan_Standard_Time_UT+8) daisuke>
+Time-stamp: <2023/11/26 19:35:10 (Taiwan_Standard_Time_UT+8) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -17,7 +17,7 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 - Session 08 "Blackbody radiation" on 06/Nov/2023
 - Session 09 "Distribution of asteroids, stars, and galaxies" on 13/Nov/2023
 - Session 10 "Hubble diagram and expansion of the Universe" on 20/Nov/2023
-- Session 11 "Constructing a HR diagram of a star cluster using Gaia DR3" on 27/Nov/2023
+- Session 11 "Estimating ages of star clusters" on 27/Nov/2023
 
 ## Online resources
 
@@ -59,7 +59,7 @@ To download all the sample Python scripts and Jupyter Notebook files for this co
   - https://colab.research.google.com/drive/1bYXjopouqOGX3LAl2iwM5_SYGHWrIkp3?usp=sharing
 - Session 10: "Hubble diagram and expansion of the Universe"
   - https://colab.research.google.com/drive/1IEdQ8eWoi5cNR3cAR0pFiwQCsiuyGaEy?usp=sharing
-- Session 11: "Constructing a HR diagram of a star cluster using Gaia DR3"
+- Session 11: "Estimating ages of star clusters"
   - https://colab.research.google.com/drive/1LZmDrHTC7N_9z2JmVIe8b4S2EygaeIye?usp=sharing
 
 ### "Astroinformatics" of previous semesters
