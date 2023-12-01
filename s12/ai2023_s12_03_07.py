@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/01 09:09:27 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/01 13:16:40 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing numpy module
@@ -15,7 +15,7 @@ import matplotlib.backends.backend_agg
 file_input = 'ai2023_s12_03_06.data'
 
 # output file name
-file_output = 'ai2023_s12_03_07.eps'
+file_output = 'ai2023_s12_03_07.png'
 
 # empty numpy arrays for storing data
 data_per = numpy.array ([])
