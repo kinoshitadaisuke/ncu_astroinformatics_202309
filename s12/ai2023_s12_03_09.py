@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/01 10:58:45 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/01 13:16:49 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing numpy module
@@ -15,7 +15,7 @@ import matplotlib.backends.backend_agg
 file_input = 'linear/4672469.dat'
 
 # output file name
-file_output = 'ai2023_s12_03_09.eps'
+file_output = 'ai2023_s12_03_09.png'
 
 # best fit period (day)
 p_best = 13.204242 / 24.0
