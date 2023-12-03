@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/03 16:11:49 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/03 22:23:49 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing urllib module
@@ -15,9 +15,12 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 # list of URL
 list_url = [
-    'http://exoplanetarchive.ipac.caltech.edu/data/ETSS/Kepler/005/754/97/kplr009941662-2009201121230_slc.fits',
-    'http://exoplanetarchive.ipac.caltech.edu/data/ETSS/Kepler/005/754/97/kplr009941662-2009231120729_slc.fits',
-    'http://exoplanetarchive.ipac.caltech.edu/data/ETSS/Kepler/005/754/97/kplr009941662-2009259162342_slc.fits',
+    'http://exoplanetarchive.ipac.caltech.edu/data/ETSS/Kepler/005/754/97/' \
+    + 'kplr009941662-2009201121230_slc.fits', \
+    'http://exoplanetarchive.ipac.caltech.edu/data/ETSS/Kepler/005/754/97/' \
+    + 'kplr009941662-2009231120729_slc.fits', \
+    'http://exoplanetarchive.ipac.caltech.edu/data/ETSS/Kepler/005/754/97/' \
+    + 'kplr009941662-2009259162342_slc.fits', \
     ]
 
 # downloading each data file
