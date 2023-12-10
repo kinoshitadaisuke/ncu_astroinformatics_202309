@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/07 20:33:27 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/10 09:50:57 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing argparse module
@@ -81,14 +81,14 @@ if not (path_input.exists ()):
     # exit
     sys.exit ()
 
-# check of input file name
+# check of output file name
 if not (path_output.suffix == '.fits'):
     # printing message
     print ("ERROR: Output file must be a FITS file.")
     # exit
     sys.exit ()
 
-# existence check of input file
+# existence check of output file
 if (path_output.exists ()):
     # printing message
     print ("ERROR: Output file '%s' exists." % (file_output) )
