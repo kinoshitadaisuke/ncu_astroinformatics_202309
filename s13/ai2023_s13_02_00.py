@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/07 20:42:38 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/10 09:49:40 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing argparse module
@@ -93,7 +93,7 @@ if not (path_input.exists ()):
     # exit
     sys.exit ()
 
-# check of input file name
+# check of output file name
 if not ( (path_output.suffix == '.eps') or (path_output.suffix == '.pdf') \
          or (path_output.suffix == '.png') or (path_output.suffix == '.ps') ):
     # printing message
@@ -101,7 +101,7 @@ if not ( (path_output.suffix == '.eps') or (path_output.suffix == '.pdf') \
     # exit
     sys.exit ()
 
-# existence check of input file
+# existence check of output file
 if (path_output.exists ()):
     # printing message
     print ("ERROR: Output file '%s' exists." % (file_output) )
