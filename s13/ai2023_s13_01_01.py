@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/07 20:32:24 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/10 09:50:43 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing argparse module
@@ -63,14 +63,14 @@ maxiters    = args.maxiters
 # making pathlib objects
 path_input  = pathlib.Path (file_input)
 
-# check of input file name
+# check of output file name
 if not (path_input.suffix == '.fits'):
     # printing message
     print ("ERROR: Input file must be a FITS file.")
     # exit
     sys.exit ()
 
-# existence check of input file
+# existence check of output file
 if not (path_input.exists ()):
     # printing message
     print ("ERROR: Input file '%s' does not exist." % (file_input) )
