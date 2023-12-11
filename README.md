@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/12/05 10:33:18 (Taiwan_Standard_Time_UT+8) daisuke>
+Time-stamp: <2023/12/11 22:33:12 (Taiwan_Standard_Time_UT+8) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -20,6 +20,7 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 - Session 11 "Estimating ages of star clusters" on 27/Nov/2023
 - Session 12 "Periodicity analysis of astronomical time-series data" on 04/Dec/2023
 - Session 13 "Source extraction and image alignment of astronomical images" on 11/Dec/2023
+- Session 14 "Planetary motion and orbital integration" on 18/Dec/2023
 
 ## Online resources
 
@@ -67,6 +68,8 @@ To download all the sample Python scripts and Jupyter Notebook files for this co
   - https://colab.research.google.com/drive/1fEcB36gBJiqLqhBWgTNmX1d-wCxljZMV?usp=sharing
 - Session 13: "Source extraction and image alignment of astronomical images"
   - https://colab.research.google.com/drive/1jr4Y7waZMnji4UuLgqNghX4VkKXHhH9K?usp=sharing
+- Session 14: "Planetary motion and orbital integration"
+  - https://colab.research.google.com/drive/1kDH4AW7T8ZVPpF7Abnc4yBrWNjKxvyux?usp=sharing
 
 ### "Astroinformatics" of previous semesters
 
