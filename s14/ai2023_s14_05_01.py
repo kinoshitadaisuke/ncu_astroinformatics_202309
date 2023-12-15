@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/14 20:41:45 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/15 14:45:27 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing datetime module
@@ -100,7 +100,7 @@ with open (file_output, 'w') as fh:
         # integration
         sim.integrate (time)
         # time after a step of integration
-        t_current = t_epoch + 365.25 * sim.t / year * u_day
+        t_current  = t_epoch + 365.25 * sim.t / year * u_day
         jd_current = t_current.jd
 
         # writing data to file
