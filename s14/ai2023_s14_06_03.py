@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/15 00:16:14 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/15 14:43:58 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing gzip module
@@ -142,9 +142,9 @@ majorbody = [
 n_minorbody = 5000
 
 # reading simulation from file
-sim = rebound.Simulation (file_sim)
+sim            = rebound.Simulation (file_sim)
 sim.integrator = 'mercurius'
-sim.dt = +0.01
+sim.dt         = +0.01
 sim.move_to_com ()
 
 # particles
