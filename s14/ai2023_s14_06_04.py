@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/15 08:13:26 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/15 14:44:25 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing datetime module
@@ -144,9 +144,9 @@ with open (file_data, 'r') as fh:
 
         for j in ( range (2, n_major + n_minor + 2) ):
             xyz = records[j].split (',')
-            x = float (xyz[0])
-            y = float (xyz[1])
-            z = float (xyz[2])
+            x   = float (xyz[0])
+            y   = float (xyz[1])
+            z   = float (xyz[2])
             if (j == 2):
                 sun, = ax.plot (x, z, color='yellow', linestyle='None', \
                                 marker='o', markersize=10, label='Sun')
