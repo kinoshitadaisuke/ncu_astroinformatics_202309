@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/15 00:15:43 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/15 14:44:53 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing gzip module
@@ -40,16 +40,16 @@ with gzip.open (file_mpcorb, 'rb') as fh:
             # epoch
             epoch = line[20:25]
             # mean anomaly
-            M = float (line[26:35])
+            M     = float (line[26:35])
             M_rad = numpy.deg2rad (M)
             # argument of perihelion
-            peri = float (line[37:46])
+            peri     = float (line[37:46])
             peri_rad = numpy.deg2rad (peri)
             # longitude of ascending node
-            node = float (line[48:57])
+            node     = float (line[48:57])
             node_rad = numpy.deg2rad (node)
             # inclination
-            i = float (line[59:68])
+            i     = float (line[59:68])
             i_rad = numpy.deg2rad (i)
             # eccentricity
             e = float (line[70:79])
@@ -60,13 +60,13 @@ with gzip.open (file_mpcorb, 'rb') as fh:
 
             # adding data to the dictionary if Jovian Trojan asteroid
             if (orbit_type == '0009'):
-                dic_elements[number] = {}
-                dic_elements[number]['a'] = a
-                dic_elements[number]['e'] = e
-                dic_elements[number]['i'] = i_rad
+                dic_elements[number]         = {}
+                dic_elements[number]['a']    = a
+                dic_elements[number]['e']    = e
+                dic_elements[number]['i']    = i_rad
                 dic_elements[number]['peri'] = peri_rad
                 dic_elements[number]['node'] = node_rad
-                dic_elements[number]['M'] = M_rad
+                dic_elements[number]['M']    = M_rad
                 # increment
                 n_jt += 1
 
