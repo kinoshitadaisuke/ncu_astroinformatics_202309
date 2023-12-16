@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/15 14:10:39 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/16 15:33:50 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing gzip module
@@ -225,7 +225,7 @@ for i in range (n_output):
     ax.set_xlim3d (-7.5, +7.5)
     ax.set_ylim3d (-7.5, +7.5)
     ax.set_zlim3d (-2.0, +2.0)
-    ax.set_box_aspect ( (7.5, 7.5, 2.0) )
+    ax.set_box_aspect ( (15.0, 15.0, 4.0), zoom=1.0 )
 
     # projection
     ax.set_proj_type ('persp')
@@ -331,7 +331,7 @@ for i in range (n_output):
 
     # viewing angles of camera
     ax.view_init (elev=el, azim=az)
-    ax.set_box_aspect (None, zoom=zoom)
+    ax.set_box_aspect ( (15.0, 15.0, 4.0), zoom=zoom)
 
     # image file
     file_image = f'{dir_png}/{file_prefix}_{i:06d}.{file_ext}'
