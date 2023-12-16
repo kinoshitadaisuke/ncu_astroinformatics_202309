@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/15 10:19:11 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/16 15:24:13 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing datetime module
@@ -258,4 +258,7 @@ with open (file_data, 'r') as fh:
 
         # increment
         i += 1
-        print (f"status: {i}")
+
+        # printing status
+        if (i % 100 == 0):
+            print (f"status: {i}")
