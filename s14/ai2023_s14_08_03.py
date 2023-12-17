@@ -1,14 +1,14 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/17 12:18:38 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/17 18:48:07 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing subprocess module
 import subprocess
 
 # ffmpeg command
-ffmpeg = 'ffmpeg6'
+ffmpeg = 'ffmpeg'
 
 # ffmpeg options
 options_ffmpeg = f'-f image2 -start_number 0 -framerate 30' \
