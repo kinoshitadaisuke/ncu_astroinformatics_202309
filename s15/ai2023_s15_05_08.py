@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/22 16:10:49 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/23 00:44:28 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing numpy module
@@ -22,7 +22,7 @@ file_training = 'ai2023_s15_05_07_training.data'
 file_testing = 'ai2023_s15_05_07_testing.data'
 
 # figure file
-file_fig = 'ai2023_s15_05_08.pdf'
+file_fig = 'ai2023_s15_05_08.png'
 
 # making empty lists for storing data
 list_a_x               = []
