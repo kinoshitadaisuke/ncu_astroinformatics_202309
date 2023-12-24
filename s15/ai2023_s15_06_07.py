@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/23 21:20:07 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/24 19:04:39 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing numpy module
@@ -18,7 +18,7 @@ file_ubv = 'compil.ast.ubv-photometry/data/ubvmean.tab'
 file_class = 'ast_taxonomy/data/taxonomy10.tab'
 
 # output file
-file_output = 'ai2023_s15_06_07.pdf'
+file_output = 'ai2023_s15_06_07.png'
 
 # making empty dictionaries for storing data
 colour_ub     = {}
