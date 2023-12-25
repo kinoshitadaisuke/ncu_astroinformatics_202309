@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/23 20:14:41 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/25 22:47:31 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # importing numpy module
@@ -55,7 +55,7 @@ with open (file_ubv, 'r') as fh:
             list_bv_err.append (ub_err)
             # printing extracted data
             print (f'{number:5d} : U-B = {ub:+6.3f} +/- {ub_err:5.3f},', \
-                   f'B-V = {bv:+6.3f} +/- {bv:5.3f}')
+                   f'B-V = {bv:+6.3f} +/- {bv_err:5.3f}')
 
 # making numpy arrays
 array_ub     = numpy.array (list_ub)
