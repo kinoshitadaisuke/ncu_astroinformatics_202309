@@ -1,6 +1,6 @@
 # Astroinformatics
 
-Time-stamp: <2023/12/24 19:56:17 (Taiwan_Standard_Time_UT+8) daisuke>
+Time-stamp: <2023/12/25 22:29:58 (Taiwan_Standard_Time_UT+8) daisuke>
 
 This is a repository for the course "Astroinformatics" offered at Institute of Astronomy, National Central University, from Sep/2023 to Jan/2024.
 
@@ -22,6 +22,7 @@ This is a repository for the course "Astroinformatics" offered at Institute of A
 - Session 13 "Source extraction and image alignment of astronomical images" on 11/Dec/2023
 - Session 14 "Planetary motion and orbital integration" on 18/Dec/2023
 - Session 15 "Classification of astronomical objects using machine learning" on 18/Dec/2023
+- Session 16 TBA
 
 ## Online resources
 
