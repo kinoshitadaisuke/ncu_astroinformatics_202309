@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.10
 
 #
-# Time-stamp: <2023/12/23 19:59:04 (Taiwan_Standard_Time_UT+8) daisuke>
+# Time-stamp: <2023/12/25 22:47:15 (Taiwan_Standard_Time_UT+8) daisuke>
 #
 
 # data file
@@ -33,4 +33,4 @@ with open (file_ubv, 'r') as fh:
         # printing extracted colour indices of asteroids
         if not ( (number == 0) or (ub > 9.0) or (bv > 9.0) ):
             print (f'{number:5d} : U-B = {ub:+6.3f} +/- {ub_err:5.3f},', \
-                   f'B-V = {bv:+6.3f} +/- {bv:5.3f}')
+                   f'B-V = {bv:+6.3f} +/- {bv_err:5.3f}')
